@@ -1,0 +1,17 @@
+{% extends 'registration_base.html' %} {% load static %} {% block title %} Table
+List {% endblock %} {% block content %}
+
+<body>
+  <div class="container mt-5">
+    <h3>Calculate the sum here</h3>
+    <form action="sol" method="">
+      Enter x: <input class="my-3" type="text" name="num1" />
+      <br />
+      Enter n: <input class="my-3" type="text" name="num2" />
+      <br />
+      <input type="submit" />
+    </form>
+  </div>
+</body>
+
+{% endblock %}
